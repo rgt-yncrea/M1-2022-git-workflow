@@ -1,8 +1,8 @@
 [build-system]
 requires = ["hatchling"]
-build-backend = "main.build"
+build-backend = "hatchling.build"
 [project]
-name = "example_package_Andraziel"
+name = "package_Andraziel"
 version = "0.0.1"
 authors = [
   { name="Auxence", email="auxence.deleuziere@isen.yncrea.fr" },
