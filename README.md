@@ -6,7 +6,7 @@ The bugs in the converter have been fixed and now we want to publish our work as
 
 ## Getting started
 You should be working from **your own repository** that is a fork of M1-2022-git-workflow.
-In order to run this project, you will have to follow these steps.
+In order to run this project, you will have to follow these steps
 1. Clone this project
 2. move into the project folder
 ``` shell
