@@ -1,0 +1,6 @@
+[project]
+name = "un_test"
+version = "0.0.1"
+authors = [
+  { name="Thomas", email="thomas.buton@isen.yncrea.fr" },
+]
