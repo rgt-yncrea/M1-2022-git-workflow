@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.converter_chinkara.converter import dec_to_bin, bin_to_dec
+from converter_chinkara.converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
