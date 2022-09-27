@@ -26,5 +26,5 @@ jobs:
           coverageFile: cov-report.xml
           token: ${{ secrets.GITHUB_TOKEN }}
           thresholdAll: 0.8
-          thresholdNew: 0.9
+          thresholdNew: 0.8
           thresholdModified: 0.0
