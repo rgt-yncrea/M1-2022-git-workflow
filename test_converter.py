@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.converter_package_Hugo-Azix.converter import dec_to_bin, bin_to_dec
+from src.converter_package_Hugo.converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
