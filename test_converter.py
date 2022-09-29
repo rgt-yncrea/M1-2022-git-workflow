@@ -1,8 +1,6 @@
 from unittest import TestCase
-import sys
-sys.path.append('/tp2_git/src/converter_package_Bajiio/')
 
-from converter import dec_to_bin, bin_to_dec
+from src.converter_package_Bajiio.converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
