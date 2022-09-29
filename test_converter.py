@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.packaging_tutorial.example_package_loic_S.converter import dec_to_bin, bin_to_dec
+from packaging_tutorial.src.example_package_loic_S.converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
