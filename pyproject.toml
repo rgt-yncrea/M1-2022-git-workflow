@@ -3,10 +3,10 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 
-name = "example_package_gaellemc"
+name = "gaelle.monteil-combabessou"
 version = "0.0.1"
 authors = [
-  { name="example_package_gaellemc", email="gaelle.monteil-combabessou@isen.yncrea.fr" },
+  { name="gaelle.monteil-combabessou", email="gaelle.monteil-combabessou@isen.yncrea.fr" },
 ]
 description = "A small example package"
 readme = "README.md"
