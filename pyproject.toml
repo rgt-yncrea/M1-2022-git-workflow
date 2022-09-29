@@ -2,10 +2,10 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
-name = "blabla"
+name = "lucas"
 version = "0.0.1"
 authors = [
-  { name="blabla", email="lucas.bonnemains@isen.yncrea.fr" },
+  { name="lucas", email="lucas.bonnemains@isen.yncrea.fr" },
 ]
 description = "A small example package"
 readme = "README.md"
