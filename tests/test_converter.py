@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from scr.thomas_BUTON.converter import dec_to_bin, bin_to_dec
+from home.runner.work.M1-2022-git-workflow.M1-2022-git-workflow.scr.thomas_BUTON.converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
