@@ -14,4 +14,4 @@ long_description_content_type='text/markdown',
 author='salma temsamani', author_email='salma.temsamani@isen.yncrea.fr',
 url='https://github.com/Salmatemsamani/M1-2022-git-workflow', 
 packages=find_packages(),
-entry_points={ 'console_script':[ 'hello-world-cli = M1_2022_git_workflow.main:say_hello', ], }, )
+entry_points={ 'console_script':[ 'hello-world-cli = M1-2022-git-workflow.main:say_hello', ], }, )
