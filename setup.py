@@ -13,8 +13,8 @@ setup(
   version='1.0.0',
   #long_description=readme,
   long_description=long_description,
-  long_description_content_type='text/markdown'
-  author='Aristy Lux',
+  long_description_content_type='text/markdown',
+  author='Aristylux',
   author_email='axel.mezade@orange.fr',
   url='https://github.com/Aristylux/M1-2022-git-workflow',
   packages=find_packages(),
