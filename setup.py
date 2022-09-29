@@ -14,9 +14,9 @@ setup(
   #long_description=readme,
   long_description=long_description,
   long_description_content_type='text/markdown',
-  author='LeBGdu45',
+  author='Swannnnn',
   author_email='swan.boissay@isen.yncrea.fr',
-  url='https://github.com/Aristylux/M1-2022-git-workflow',
+  url='https://github.com/Swannnnn/M1-2022-git-workflow',
   packages=find_packages(),
   entry_points={
     'console_script':[
