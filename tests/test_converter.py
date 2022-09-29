@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from ../src/package_MATTHIS_BERNET/converter import dec_to_bin, bin_to_dec
+from ../src/package_matthis.bernet/converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
