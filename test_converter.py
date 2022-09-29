@@ -1,9 +1,7 @@
 from unittest import TestCase
 
-import os
-import sys
-sys.path.insert(0, os.path.abspath( os.path.join(os.path.dirname(__file__), 
-                                               '../src/thomas_BUTON/converter.py') ))
+from scr.thomas_BUTON.converter import dec_to_bin, bin_to_dec
+
 
 class TestConverter(TestCase):
     def test_dec_to_bin_even(self):
