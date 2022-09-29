@@ -1,4 +1,4 @@
-from converter import dec_to_bin, bin_to_dec
+from scr.thomas_BUTON.converter import dec_to_bin, bin_to_dec
 
 
 def say_hello():
