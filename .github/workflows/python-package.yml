@@ -39,3 +39,16 @@ jobs:
       run: |
         pytest
     
+
+
+    - name: "example_package_Gaellemc"
+      version: "0.0.1"
+      authors: {name="Gaellemc", email="gaelle.monteil-combabessou@isen.yncrea.fr" },
+      description = "A small example package"
+      readme = "README.md"
+      requires-python = ">=3.7"
+      classifiers = [
+        "Programming Language ::Python ::3",
+        "License ::OSI Approved ::MIT License",
+        "Operating System ::OS Independent",
+      ]
