@@ -5,9 +5,9 @@ from setuptools import find_packages
 
         
         
-with open('README.md') asf:	        
+#with open('README.md') asf:	        
         
-    readme = f.read()	        
+#    readme = f.read()	        
         
 
         
@@ -16,7 +16,7 @@ from pathlib import Path
         
 this_directory = Path(__file__).parent	        
         
-long_description = (this_directory / "README.md").read_text()	        
+#long_description = (this_directory / "README.md").read_text()	        
         
 
         
@@ -29,9 +29,9 @@ setup(
         
 #    long_description=readme,	        
         
-    long_description=long_description,	        
+ #   long_description=long_description,	        
         
-        long_description_content_type='text/markdown'	        
+  #      long_description_content_type='text/markdown'	        
         
     author='GUEZGUEZ Ilian',	        
         
