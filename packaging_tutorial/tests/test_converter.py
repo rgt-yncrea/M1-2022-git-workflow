@@ -27,3 +27,5 @@ class TestConverter(TestCase):
     def test_reverse(self):
         n = 135
         self.assertEqual(n, bin_to_dec(dec_to_bin(n)))
+
+        
