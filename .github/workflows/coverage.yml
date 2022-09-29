@@ -24,7 +24,7 @@ jobs:
         uses: orgoro/coverage@v2
         with:
           coverageFile: cov-report.xml
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_.TOKEN }}
           thresholdAll: 0.8
           thresholdNew: 0.9
           thresholdModified: 0.0
