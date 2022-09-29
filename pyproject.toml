@@ -1,6 +1,6 @@
 [build-system]
 requires = ["hatchling"]
-build-back-end = "hatchling.build"
+build-backend = "hatchling.build"
 
 [project]
 name = "example_package_Mailliw83"
