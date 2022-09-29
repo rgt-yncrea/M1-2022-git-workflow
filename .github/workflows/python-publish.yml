@@ -5,11 +5,10 @@
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
 # documentation.
-
 name: Upload Python Package
 
 on:
-  release: 
+  release:
     types: [published]
 
 permissions:
@@ -36,26 +35,4 @@ jobs:
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
       with:
         user: __token__
-        password: pypi-AgEIcHlwaS5vcmcCJGE4ODM0ZjBjLWFiMmMtNGE0OS1iMDhmLWRlYmM4NTQ3YTRmYgACKlszLCJiNWQwM2IwOS03N2U1LTQ0YWQtYjM5My1mODYxOGQ3NTc2Y2MiXQAABiCXDeaDa3FWoo-fr72QETDxhUYcqWgV22Sfhpm2t5eR2g
-    - on:
-        pull_request:
-        branches:
-        - main
-        
-name = "example_package_lucilechrp"
-version = "0.0.1"
-authors = [
-  { name="lucilechrp", email="lucile.charpentier@hotmail.com" },
-]
-description = "A small example package"
-readme = "README.md"
-requires-python = ">=3.7"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
-
-[project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+        password: pypi-AgEIcHlwaS5vcmcCJGE4ODM0ZjBjLWFiMmMtNGE0OS1iMDhmLWRlYmM4NTQ3YTRmYgACKlszLCJiNWQwM2IwOS03N2U1LTQ0YWQtYjM5My1mODYxOGQ3NTc2Y2MiXQAABiCXDeaDa3FWoo-fr72QETDxhUYcqWgV22Sfhpm2t5eR2g 
