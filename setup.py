@@ -9,7 +9,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-  name='COCHENNEC_CONVERTER',
+  name='COCHENNEC',
   version='1.0.0',
   #long_description=readme,
   long_description=long_description,
