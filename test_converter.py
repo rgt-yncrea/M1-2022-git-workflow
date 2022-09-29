@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from scr.thomas_BUTON.converter import dec_to_bin, bin_to_dec
+from src.thomas_BUTON.converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
