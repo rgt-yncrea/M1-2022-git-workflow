@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "lucas"
 version = "0.0.1"
 authors = [
-  { name="lucas", email="lucas.bonnemains@isen.yncrea.fr" },
+  { name="lucas", email="bonnemainslucas@gmail.com" },
 ]
 description = "A small example package"
 readme = "README.md"
