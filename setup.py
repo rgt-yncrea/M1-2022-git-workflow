@@ -6,15 +6,15 @@ from setuptools import find_packages
 
 from pathlib import Path
 this_directory = Path(__file__).parent
-long_description = (this_directory/"README.md").read_text()
+long_description = (this_directory / "README.md").read_text()
 
 setup(
-  name='BINDEC Converter',
+  name='BINDEC_Converter',
   version='1.0.0',
   #long_description=readme,
   long_description=long_description,
   long_description_content_type='text/markdown'
-  author='Aristylux',
+  author='Aristy Lux',
   author_email='axel.mezade@orange.fr',
   url='https://github.com/Aristylux/M1-2022-git-workflow',
   packages=find_packages(),
