@@ -1,6 +1,7 @@
+
 from unittest import TestCase
 
-from converter import dec_to_bin, bin_to_dec
+from src.dec_bin_converter_Angileri_lorenzo.converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
