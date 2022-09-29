@@ -6,12 +6,12 @@ from pathlib import Path
 this_directory = Path(__file__).parent 
 long_description = (this_directory / "README.md").read_text()
 setup(
-name='BIN_Converter',
+name='BINDEC_Converter',
 version='1.0.0',
 #long_description=readme,
 long_description=long_description, 
 long_description_content_type='text/markdown',
-author='salma temsamani',
+author='Salmatemsamani',
 author_email='salma.temsamani@isen.yncrea.fr',
 url='https://github.com/Salmatemsamani/M1-2022-git-workflow', 
 packages=find_packages(),
