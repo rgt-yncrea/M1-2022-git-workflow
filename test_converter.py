@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.converter import dec_to_bin, bin_to_dec
+from src.converter_sulfin.converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
