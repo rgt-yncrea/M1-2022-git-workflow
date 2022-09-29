@@ -38,27 +38,3 @@ jobs:
         user: __token__
         password: ${{753687b8157a17d8fcb47d58480590353aa85682c44975490c662131ab343825401b367281f32d34770077a924ebee755ee5e0d9b0921b7e047023d3642accd9}}
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"      
-        
-        
-[project]
-name = "THEKetsu"
-version = "0.0.1"
-authors = [
-  { name="THEKetsu", email="quentin.bender@isen.yncrea.fr" },
-]
-description = "A small example package"
-readme = "README.md"
-requires-python = ">=3.7"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
-
-[project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
-
