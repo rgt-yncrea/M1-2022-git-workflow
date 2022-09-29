@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from converter import dec_to_bin, bin_to_dec
+from src.taric_hadj.converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
