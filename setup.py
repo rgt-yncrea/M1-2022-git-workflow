@@ -16,7 +16,7 @@ from pathlib import Path
         
 this_directory = Path(__file__).parent	        
         
-#long_description = (this_directory / "README.md").read_text()	        
+long_description = (this_directory / "README.md").read_text()	        
         
 
         
@@ -27,12 +27,12 @@ setup(
         
     version='1.0.0',	        
         
-#    long_description=readme,	        
+    long_description=readme,	        
         
- #   long_description=long_description,	        
+    long_description=long_description,	        
         
-  #      long_description_content_type='text/markdown'	        
-        
+    long_description_content_type='text/markdown'	        
+    
     author='GUEZGUEZ Ilian',	        
         
     author_email='ilian.guezguez@isen.yncrea.fr',	        
