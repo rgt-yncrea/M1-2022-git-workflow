@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from converter_package_Bajiio.converter import dec_to_bin, bin_to_dec
+from tp2_git.converter_package_Bajiio.converter import dec_to_bin, bin_to_dec
 
 
 class TestConverter(TestCase):
