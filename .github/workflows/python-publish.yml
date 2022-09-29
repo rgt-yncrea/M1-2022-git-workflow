@@ -37,3 +37,9 @@ jobs:
       with:
         user: __token__
         password: ${{ secrets.PYPI_API_TOKEN }}
+        
+    - name: Create Tag
+      uses: actions/setup-python@v3
+      env:
+        TAG: ${{ steps.set-tag.outputs.v1.0 }}
+      
