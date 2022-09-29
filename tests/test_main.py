@@ -1,5 +1,5 @@
 
 
-def test_main():
+def main():
     assert True
 
