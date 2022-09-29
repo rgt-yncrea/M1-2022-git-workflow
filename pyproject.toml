@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "package_matthis.bernet"
+name = "package_matthis_bernet"
 version = "0.0.1"
 authors = [
   { name="Matthis_package_TP2", email="matthis.bernet@isen.yncrea.fr" },
