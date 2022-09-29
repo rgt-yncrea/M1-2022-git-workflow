@@ -15,7 +15,7 @@ setup(
   long_description=long_description,
   long_description_content_type='text/markdown',
   author='Swannnnn',
-  author_email='swan.boissay@isen.yncrea.fr',
+  author_email='swan2.boissay2@outlook.fr',
   url='https://github.com/Swannnnn/M1-2022-git-workflow',
   packages=find_packages(),
   entry_points={
